@@ -1,0 +1,167 @@
+
+.stick{
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+}
+
+header {
+    width: 100%;
+    height: 17%;
+    position: -webkit-sticky;
+    position: sticky;
+    position: absolute;
+    background-image: linear-gradient(black,black,rgba(235, 218, 218, 0)); 
+    margin: 0;
+    padding: 0;
+}
+.principal{
+    background-image:linear-gradient(rgb(0, 0, 0,1),rgb(0, 0, 0,0)),url("fundoFlasco.png");
+}
+#logo {
+    height: auto;
+    width: 60%;
+    max-width: 100px;
+}
+#titulo {
+    color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 7%;
+}
+footer {
+    background-color: black;
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    max-width: 100%;
+}
+
+#background{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    height: auto;
+    width: 100%;
+}
+#hino { 
+    background-color:white ; 
+    text-align: center;
+}
+#copyright {
+    text-align: center;
+    color:white;
+}
+#imgfinal{
+    position: relative;
+    height: 50px;
+    width: auto;
+
+}
+.footer-social__icon{
+    background-color: black;
+    height:90% ;
+    width: 4%;
+    border: none;
+}
+#serratec{
+    height: auto;
+    width: 80%;
+    padding-bottom: 12%;
+}
+#carouselExampleIndicators {
+    height: 50%;
+    width: 50%;
+}
+#meme{
+    background-color: white;
+}
+#txt{
+    background-color: black;
+    font-size: 1.5em;
+    font-family: sans-serif;
+    color: white;
+    text-align:justify;
+}
+#patrocinador{
+    color: white;
+}
+.navB{
+    width: 100%;
+    position: relative;
+}
+#navA{
+    text-align: center;
+    text-decoration: none;
+    color:black
+}
+#navA:hover{
+    color:darkred;
+
+}
+#headerA{
+    border-radius: 25%;
+    font-size: 18px;
+}
+#lateralA{
+    border-radius: 25%;
+    font-size: 30px;
+}
+#headerA:hover{
+    border-radius: 25%;
+    font-size: 14px;
+}
+#linkheader{
+    text-decoration: none;
+    color: black;
+}
+#login{
+    background-color: black;
+    size: 50%;
+}
+.quiz{
+    background-color: black;
+    padding: 3%;
+    color:white;
+}
+.organ{
+    padding: 3%;
+    color: white;
+}
+#padrao{
+    background-color: white;
+}
+#form{
+    background-color: white;
+    height: auto;
+    width: 25%;
+}
+#tit{
+    text-align: center;
+}
+#bt{
+   margin-left: 45%;
+   border-radius: 25%;
+}
+#bt1{
+    margin-left: 40%;
+    border-radius: 25%;
+ }
+ #quiZ{
+     margin-left: 80%;
+     border-radius: 25%;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="logo.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="projetofinalv03.css">
+</head>
+<header class="stick">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 coluna_esquerda">
+                <a href="projetofinalv03.html"><img src="logo.png" alt="Logo da União" id="logo"></a>
+            </div>
+            <div class="col-md-5 coluna_meio">
+                <h1 id="titulo">Faça parte da União Flasco </h1>
+            </div>
+            <div class="col-md-2 coluna_direita p-5">
+                <button type="submit" id="headerA"><a href="paginalogin.html" id="linkheader" target="_blank">Fazer login</a></button>
+            </div>
+            <div class="col-md-3 coluna_direita p-5">
+                <button type="submit" id="headerA"><a href="paginacadastro.html" id="linkheader" target="_blank">Quero ser sócio!</a></button>
+            </div>
+        </div>
+    </div>
+</header>
+<body id="padrao" class="principal">
+    <div class="container" id="form">
+        <br><br>
+    <div>
+        <h2 id="tit"> Cadastro de sócios</h2>
+    </div>
+    <form  action="projetofinalv03.html" method="post" id='form-contato' enctype='multipart/form-data'>
+        <fieldset>
+            <div>
+                <label for="nome">Digite seu nome: </label>
+                <input class="form-control pula" type="text" name="nome" id="nome" required>
+                <br><br>
+                <label for="sobrenome">Digite seu sobrenome: </label>
+                <input class="form-control pula" type="text" name="sobrenome" id="sobrenome" required>
+                <br><br>
+            </div>
+        </fieldset>
+
+        <div>
+            <label for="email">Digite o seu email: </label>
+            <input class="form-control pula" type="email" name="email" id="email" required><br><br>
+            <label for="email">Crie sua senha: </label>
+            <input class="form-control pula" type="number" name="senha" id="senha" placeholder="Apenas números" required>
+            <br><br>
+        </div>
+
+        <div>
+            <label>Sexo: </label>
+            <input  type="radio" name="sexo" value="feminino"> Feminino
+            <input  type="radio" name="sexo" value="masculino"> Masculino
+            <input  type="radio" name="sexo" value="outros"> Outros
+        </div>
+        <br><br>
+        <div class="form-group">
+            <fieldset>
+                <label for="cep">Digite o seu CEP: </label>
+                <input type="text" class="form-control pula" placeholder="Apenas números" name="cep" maxlength="12"
+                    id="cep" required>
+        </div>
+        <br>
+        <label>Selecione o seu estado: </label>
+        <input type="text" class="form-control pula" maxlength="2" name="uf" id="uf">
+        <br>
+        <label>Digite a sua cidade: </label>
+        <input type="text" class="form-control pula" name="cidade" id="cidade">
+        <br>
+        <label>Digite seu bairro: </label>
+        <input type="text" class="form-control pula" name="bairro" id="bairro">
+        </fieldset>
+        <br>
+        <div>
+            <button id="bt1" onclick="alert('Parabéns! Você está cadastrado')" type="submit">Concluído</button>
+        </div>
+        <br><br>
+    </form>
+    </div>
+    <br><br>
+    <footer class="text-center p-5">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h2 id="patrocinador">Patrocinador |</h2>
+            </div>
+            <div class="col-md-2">
+                <a href="http://serratec.org/" target="_blank"><img id="serratec" src="patrocinio.png"
+                        alt="Serratec"></a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4 coluna_esquerda"></div>
+            <div class="col-md-1 coluna_esquerda">
+                <a href="https://chat.whatsapp.com/CX6A2Uu1Fs223zKxMdIIPV" target="_blank"><img id="imgfinal" src="wppicon.png" alt="Whatsapp União"></a>
+            </div>
+            <div class="col-md-1 coluna_esquerda">
+                <a href="https://www.instagram.com/uniao.flasco/" target="_blank"><img href="" target="_blank"
+                        id="imgfinal" src="instaicon.png" alt="Instagram União"></a>
+            </div>
+            <div class="col-md-1 coluna_direita">
+                <a href="https://twitter.com/UniaoFlascoR6" target="_blank"><img href="" target="_blank" id="imgfinal"
+                        src="tticon.png" alt="Twitter União"></a>
+            </div>
+            <div class="col-md-1 coluna_direita">
+                <a href="https://web.facebook.com/Uni%C3%A3o-Flasco-105523538069527" target="_blank"><img href=""
+                        target="_blank" id="imgfinal" src="faceicon.png" alt="Facebook União"></a>
+            </div>
+            <div class="col-md-4 coluna_esquerda"></div>
+        </div>
+        <br><br>
+        <div id="copyright" class="row">
+            <p>©2021 UNIÃO FLASCO - TERMO DE USO E POLITICA DE PRIVACIDADE
+                <br>
+                CNPJ 00.111.222/0000-11
+                <br>
+                (24) 99222-5579 | atendimento@uniaoflasco.com
+                <br>
+                R. DO IMPERADOR | PETRÓPOLIS - RJ, 25610-222
+                <br>
+                TODOS OS DIREITOS RESERVADOS © COPYRIGHT 2021 | TERMOS DE USO | TRANSPARÊNCIA
+            </p>
+        </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://rawgit.com/RobinHerbots/jquery.inputmask/3.x/dist/jquery.inputmask.bundle.js"></script>
+    <script src="projetofinal.js"></script>
+</div>
+</body>
+</html>

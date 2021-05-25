@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link href="logo.png" rel="icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="projetofinalv03.css">
+</head>
+
+<body class="principal">
+    <header class="stick">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-2 coluna_esquerda">
+                    <a href="projetofinalv03.html"><img src="logo.png" alt="Logo da União" id="logo"></a>
+                </div>
+                <div class="col-md-5 coluna_meio">
+                    <h1 id="titulo">Faça parte da União Flasco </h1>
+                </div>
+                <div class="col-md-2 coluna_direita p-5">
+                    <button type="submit" id="headerA"><a href="paginalogin.html" id="linkheader" target="_blank">Fazer login</a></button>
+                </div>
+                <div class="col-md-3 coluna_direita p-5">
+                    <button type="submit" id="headerA"><a href="paginacadastro.html" id="linkheader" target="_blank">Quero ser sócio!</a></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <nav class="quiz">
+            <div>
+                <label class="organ" for="vapo">Quem é o garoto do vapo?</label>
+                <input type="radio" name="vapo" value="Vitinho"> Vitinho
+                <input type="radio" name="vapo" value="Bruno Henrique"> Bruno Henrique
+                <input type="radio" name="vapo" value="Gerson"> Gerson
+            </div>
+            <button onclick="respostaVapo()" id="quiZ" type="submit">Enviar</button>
+            <div>
+                <label class="organ" for="campe">Em que ano o vasco foi campeão internacional pela primeira
+                    vez?</label>
+                <input type="radio" name="campe" value="1998"> 1998
+                <input type="radio" name="campe" value="1974"> 1974
+                <input type="radio" name="campe" value="1948"> 1948
+                <!--correta-->
+            </div>
+            <button onclick="respostaCampe()" id="quiZ" type="submit">Enviar</button>
+            <div>
+                <label class="organ" for="art">Quem foi o artilheiro do flamengo em 2019?</label>
+                <input type="radio" name="art" value="Gabigol"> Gabigol
+                <input type="radio" name="art" value="Bruno Herinque "> Bruno Henrique
+                <input type="radio" name="art" value="Arrascaeta"> Arrascaeta
+            </div>
+            <button onclick="respostaArt()" id="quiZ" type="submit">Enviar</button>
+            <div>
+                <label class="organ" for="fund">Qual ano o vasco foi fundado?</label>
+                <input type="radio" name="fund" value="1902"> 1902
+                <input type="radio" name="fund" value="1894"> 1894
+                <input type="radio" name="fund" value="1898"> 1898 <!--certa-->
+            </div>
+            <button onclick="respostaFund()" id="quiZ" type="submit">Enviar</button>
+            <div>
+                <label class="organ" for="lib">Contra quem foi a final de 1981 em que o flamengo foi campeão da
+                    libertadores?</label>
+                <input type="radio" name="lib" value="Liverpool"> Liverpool
+                <input type="radio" name="lib" value="Monterrey"> Monterrey
+                <input type="radio" name="lib" value="AL-HILAL"> AL-HILAL
+            </div>
+            <button onclick="respostaLib()" id="quiZ" type="submit">Enviar</button>
+            <div>
+                <label class="organ" for="copabr">Quem Vasco bateu na final da copa do Brasil, que se garantiu campeão
+                    em 2011?</label>
+                <input type="radio" name="copabr" value="Cruzeiro"> Cruzeiro
+                <input type="radio" name="copabr" value="Coritiba"> Coritiba<!--correta-->
+                <input type="radio" name="copabr" value="Flamengo"> Flamengo
+            </div>
+            <button onclick="respostaCopabr()" id="quiZ" type="submit">Enviar</button>
+        </nav>
+    </div>
+    <br><br>
+    <footer class="text-center p-5">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <h2 id="patrocinador">Patrocinador |</h2>
+            </div>
+            <div class="col-md-2">
+                <a href="http://serratec.org/" target="_blank"><img id="serratec" src="patrocinio.png"
+                        alt="Serratec"></a>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-md-4 coluna_esquerda"></div>
+            <div class="col-md-1 coluna_esquerda">
+                <a href="https://chat.whatsapp.com/CX6A2Uu1Fs223zKxMdIIPV" target="_blank"><img id="imgfinal" src="wppicon.png" alt="Whatsapp União"></a>
+            </div>
+            <div class="col-md-1 coluna_esquerda">
+                <a href="https://www.instagram.com/uniao.flasco/" target="_blank"><img href="" target="_blank"
+                        id="imgfinal" src="instaicon.png" alt="Instagram União"></a>
+            </div>
+            <div class="col-md-1 coluna_direita">
+                <a href="https://twitter.com/UniaoFlascoR6" target="_blank"><img href="" target="_blank" id="imgfinal"
+                        src="tticon.png" alt="Twitter União"></a>
+            </div>
+            <div class="col-md-1 coluna_direita">
+                <a href="https://web.facebook.com/Uni%C3%A3o-Flasco-105523538069527" target="_blank"><img href=""
+                        target="_blank" id="imgfinal" src="faceicon.png" alt="Facebook União"></a>
+            </div>
+            <div class="col-md-4 coluna_esquerda"></div>
+        </div>
+        <br><br>
+        <div id="copyright" class="row">
+            <p>©2021 UNIÃO FLASCO - TERMO DE USO E POLITICA DE PRIVACIDADE
+                <br>
+                CNPJ 00.111.222/0000-11
+                <br>
+                (24) 99222-5579 | atendimento@uniaoflasco.com
+                <br>
+                R. DO IMPERADOR | PETRÓPOLIS - RJ, 25610-222
+                <br>
+                TODOS OS DIREITOS RESERVADOS © COPYRIGHT 2021 | TERMOS DE USO | TRANSPARÊNCIA
+            </p>
+        </div>
+        </div>
+    </footer>
+    <script src="projetofinal.js"></script>
+</body>
+</html>
